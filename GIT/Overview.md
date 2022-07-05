@@ -1,4 +1,4 @@
-# ✨ GIT ✨
+# ✨ GIT OVERVIEW ✨
 
 ## **Git**
 
@@ -17,11 +17,11 @@
 - 이전 작업상태로 돌아가는 방법 제공
 - 코드 공유 및 Review 수행을 위한 사용
 - 이외에도 새로운 버전 실험, 오픈 소스 등
-  <br> `분산버전관리 시스템`
+  `분산버전관리 시스템`
 
 ## **workflow**
 
-`working directory > git.add > staging area > git.commit > git directory`
+#### `working directory > git.add > staging area > git.commit > git directory`
 
 - working directory : 수정 및 작업 파일 (untracked file 소유)
 - staging area : history에 저장할 파일을 옮겨놓는 공간 (tracked file 소유)
