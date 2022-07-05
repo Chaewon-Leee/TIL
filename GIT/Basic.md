@@ -1,22 +1,14 @@
-Git file status (command, terminal 사용방식)
+# ✨ GIT BASIC ✨
 
-ㅇ git init
+## **Git file status**
 
-- Working directory 선언 (현재 사용하는 저장소)
-
-- Git init로 지정한 폴더에서 파일 생성 및 관리??
-
-맨처음 프로젝트를 올릴 때 해주는 것
-
-git을 초기화할 경우 기본적으로 master branch 생성
-
-ㅇ git add
-
-- 파일 생성 / 업데이트시 이를 track할 수 있도록 해주는 것..?
-
-- Git add [파일명]
-
-- git add . 도 가능!! --> 지양함
+- ### `git init`
+  - Working directory 선언 (현재 사용하는 저장소)
+  - Git init로 지정한 폴더에서 파일 생성 및 관리
+  - git을 초기화할 경우 기본적으로 master branch 생성
+- ### `git add [파일명]`
+- 파일 생성 / 업데이트시 이를 track할 수 있도록 해주는 것
+  - git add . 도 가능 > 지양
 
 git add \*.txt --> 해당 확장자명 [txt]로 끝나는 모든 걸 추가
 
@@ -141,5 +133,3 @@ get status로 현재 상태의 코드 확인 가능
 깃 명령어 확인 :
 
 https://git-scm.com/docs
-
-
