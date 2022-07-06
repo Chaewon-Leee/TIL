@@ -22,7 +22,7 @@
 
 ### **push**
 
-- 원격 저장소에 로컬 저장소 파일 업로드
+- 원격 저장소에 로컬 저장소 파일 **업로드**
 - 원격 저장소 이름에 흔히 origin을 사용하지만, 다른 것으로도 수정 가능
 
 ```
@@ -30,48 +30,41 @@
     git push -u / --set -upstream [원격 저장소명] [branch명] : 원격 저장소와 현재의 branch 디폴트 연결
         >> 이후부터는 git push만 사용해도 가능!
 ```
+
+### **clone vs pull vs fetch**
+
+- 로컬 저장소 파일을 원격 저장소로 불러오기 = **다운로드**
+  | clone | pull | fetch |
+  | :--------------------------------: | :--------------------------------------: |:--------------------------------------: |
+  | 원격 저장소에 로컬 저장소 파일 전체 가져오기 | 현재의 branch에 추가된 내용만 덧붙인다 | 변경 내용만 가져오고 안 합치지 않음|
+  | 새로 원격 저장소의 파일을 받아와 프로젝트 작업을 시작할 때 사용 | | 원격 저장소 내용만 확인하고 로컬 저장소와 합치지 않는 경우 활용|
 
 ### **clone**
 
-- 원격 저장소에 로컬 저장소 파일 업로드
-- 원격 저장소 이름에 흔히 origin을 사용하지만, 다른 것으로도 수정 가능
-
 ```
-    git push [원격 저장소명] [branch명] : 원격 저장소에 해당 branch 데이터 업로드
-    git push -u / --set -upstream [원격 저장소명] [branch명] : 원격 저장소와 현재의 branch 디폴트 연결
-        >> 이후부터는 git push만 사용해도 가능!
+    git clone [원격 저장소 주소]
 ```
 
-ㅇ remote에서 local로 가져오기
+### **pull**
 
-clone : 전체를 가져옴
+```
+    git pull [원격 저장소명] [branch명]
+```
 
-git clone [Remote repository url 주소]
+### **fetch**
 
-git 관리내역을 포함해서 다운로드한다
+```
+git fetch [원격 저장소명] [branch명]
+```
 
-pull : 같은 branch를 합쳐버림
+## **Github을 이용한 코드 공유 방식**
 
-git pull [Remote repository 이름] [branch 이름]
+### **깃허브 활용방안**
 
-fetch : 변경 내용만 가져오고 안 합침
+- 소스 코드 저장 (버전관리), 소스 코드 공유, 협엽
 
-git fetch [Remote repository 이름] [branch 이름]
+### **Fork & Pull Request (PR)**
 
-git merge [Remote repository 이름]/[branch 이름]
-
-▲ Github을 이용한 코드 공유 방식
-
-ㅇ 깃허브 활용방안
-
-소스 코드 저장 (버전관리)
-
-소스 코드 공유
-
-협엽
-
-ㅇ Fork & Pull Request (PR)
-
-Fork : 남의 Github Repository를 가져오는 것
-
-Pull Request (PR) : Fork로 가져와 수정한 코드를 가져가라고 요청
+|                Fork                 |             Pull Request (PR)              |
+| :---------------------------------: | :----------------------------------------: |
+| 남의 원격 저장소 파일을 가져오는 것 | 수정한 코드 남의 원격 저장소에 업로드 요청 |
