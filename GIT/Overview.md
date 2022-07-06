@@ -9,8 +9,10 @@
 
 ## **Git VS Github**
 
-- Git : 버전관리 **프로그램**, 로컬저장소 (다른 작업자와 공유 ❌)
-- Github : git을 관리하는 웹 기반 **호스팅 서비스** &rarr; 분산 버전 관리
+|                Git                 |                  Github                  |
+| :--------------------------------: | :--------------------------------------: |
+|       버전관리 **프로그램**        | git을 관리하는 웹 기반 **호스팅 서비스** |
+| 로컬저장소 (다른 작업자와 공유 ❌) |    분산 버전 관리; 다른 작업자와 공유    |
 
 ## **특징**
 
@@ -46,13 +48,18 @@
 
 ## **untracked vs tracked**
 
-- untracked : 새로 만든 파일 등 아직 git에게 알려지지 않은 파일
-- tracked : 한번이라도 git에 노출된 파일
-  - Tracked File vs staged Filed
-    - Tracked File : 변화 중인 작업물
-    - staged Filed : commit을 하기 직전 최종본
+|                     untracked                     |           tracked            |
+| :-----------------------------------------------: | :--------------------------: |
+| 새로 만든 파일 등 아직 git에게 알려지지 않은 파일 | 한번이라도 git에 노출된 파일 |
+
+## **Staged vs tracked**
+
+|         untracked         |     tracked      |
+| :-----------------------: | :--------------: |
+| commit을 하기 직전 최종본 | 변화 중인 작업물 |
 
 ## **CLI vs GUI**
 
-- Command Line Interface : 명령줄을 입력해 사용
-- Graphical User Interface : 그래픽 요소를 활용
+| Command Line Interface | Graphical User Interface |
+| :--------------------: | :----------------------: |
+|  명령줄을 입력해 사용  |    그래픽 요소를 활용    |
