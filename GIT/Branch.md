@@ -1,4 +1,16 @@
-▲ Git Branch
+# ✨ GIT BRANCH ✨
+
+## **Branch 명령어**
+
+### branch란?
+
+- 현재 저장소를 Working directory로 선언
+  <br> &rarr; 지정한 폴더에서 파일 생성 및 관리
+- 기본적으로 master branch 생성
+
+```
+    git init
+```
 
 ㅇ branch란?
 
@@ -117,5 +129,3 @@ gir rebase --abort : merge 중단
 충돌 부분 수정 후, git add .
 
 git rebase --continue : 계속 진행하라
-
-
