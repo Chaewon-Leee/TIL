@@ -1,32 +1,37 @@
 # ✨ GIT BASIC ✨
 
-## **Git file status**
+## **Git 기본 명령어**
 
-- ### `git init`
-  - Working directory 선언 (현재 사용하는 저장소)
-  - Git init로 지정한 폴더에서 파일 생성 및 관리
-  - git을 초기화할 경우 기본적으로 master branch 생성
-- ### `git add [파일명]`
+- ### init
+
+```
+    git init
+```
+
+    - 현재 저장소를 Working directory로 선언 &rarr; 지정한 폴더에서 파일 생성 및 관리
+    - 기본적으로 master branch 생성됨
+
+- ### add
+
+```
+    git add [파일명]
+```
+
 - 파일 생성 / 업데이트시 이를 track할 수 있도록 해주는 것
   - git add . 도 가능 > 지양
+  - git add \*.txt --> 해당 확장자명 [txt]로 끝나는 모든 걸 추가
+- ### commit
 
-git add \*.txt --> 해당 확장자명 [txt]로 끝나는 모든 걸 추가
+```
+    git commit [파일명] ... -m " text message "
+    git commit -am " text message " : add와 message 동시에 하는 것 (단, 새로 추가된; untracked된 파일이 업을 때 한정)
 
-ㅇ git commit
+```
 
 - 현재 상태를 저장하는 것
-
-실제 버전을 만들어주고, 메시지를 남겨 해당 버전에 대한 설명 추가
-
+- 실제 버전을 만들어주고, 메시지를 남겨 해당 버전에 대한 설명 추가
 - Git add만으로는 저장이 안됨! --> commit이 실제 history를 만들어주는것
-
-- Git commit [파일명] -m '[남길 메시지]' --> 여러개의 파일 commit : git commit [파일명] [파일명] -m '[메시지]'
-
-git commit -am [메시지]' --> add와 commit을 동시에 하는 법
-
-단 새로 추가된 (untracked)된 파일이 없을 때 한정
-
-파일 삭제시 그냥 파일을 지우게 될 경우, commit된 파일은 실제로 지워지지 않는 경우가 존재
+- 파일 삭제시 그냥 파일을 지우게 될 경우, commit된 파일은 실제로 지워지지 않는 경우가 존재 &rarr; git에서 제거 필요
 
 ㅇ git rm
 
@@ -47,20 +52,6 @@ git mv [파일명] [바꾸고자 하는 파일명]
 - 현재의 상태를 볼 수 커맨드
 
 변경사항들 뜸
-
-ㅇ staged Filed vs Committed File
-
-Staged File : 아직 commit하기 이전 상태, git add만 한 상태 —> 해당 파일의 변화를 지켜보는 것
-
-Committed File : 현재 상태를 git repository에 저장하는 것, commit 이후
-
-ㅇ Tracked File vs staged Filed
-
-Tracked File : 변화 중인 작업물
-
-staged Filed : commit을 하기 직전 최종본
-
-Committed File : 디렉토리에 저장된 최종본 (코딩 되돌림을 하는 파일?)
 
 ㅇ gitignore : 배제할 요소 지정
 
@@ -130,6 +121,4 @@ get status로 현재 상태의 코드 확인 가능
 
 또한 test를 위한 새로운 갈래를 만들어서 test를 실행 -> Branch!
 
-깃 명령어 확인 :
-
-https://git-scm.com/docs
+## **[깃 명령어](https://git-scm.com/docs)**

@@ -4,9 +4,8 @@
 
 - 버전 관리 도구 (Version Control System; VCS)
   - _버전 관리_ (형상 관리) : 동일한 소스 코드에 대해 여러개의 업데이트 버전을 관리하는 것
-  - 모든 수정본을 저장하는 파일 서버 기반 개발 관리의 문제점과 단점을 보완하기 위해 개발
-- 한 작업물에 대한 모든 버전을 저장 ❌ <br>
-  &rarr; 개발된 코드의 이력 (History) 관리
+    - 모든 수정본을 저장하는 파일 서버 기반 개발 관리의 문제점과 단점을 보완하기 위해 개발
+- 한 작업물에 대한 모든 버전을 저장 ❌ &rarr; 개발된 코드의 이력 (History) 관리
 
 ## **Git VS Github**
 
@@ -29,23 +28,29 @@
 
 #### _working directory &rarr; git.add &rarr; staging area &rarr; git.commit &rarr; git directory_
 
-- working directory : 수정 및 작업 파일 (untracked file 소유)
-- staging area : history에 저장할 파일을 옮겨놓는 공간 (tracked file 소유)
+- working directory : 수정 및 작업 파일 (untracked file)
+- staging area : history에 저장할 파일을 옮겨놓는 공간 (tracked file, staged file)
 - git directory (Git Repository) : 실제적인 history 저장물 (commited file)
 
 ## **modified file**
 
-- working directory에서 이전 버전과 비교하여 추가, 변경, 삭제 등의 변화가 생긴 것 <br>
-  &rarr; modified된 파일만 staging area로 옮겨갈 수 있다
+- working directory에서 이전 버전과 비교하여 추가, 변경, 삭제 등의 변화가 생긴 것
+- modified된 파일만 staging area로 옮겨갈 수 있다
 
 ## **commited file**
 
 - 고유한 정보를 가지는 hash tag 부가 &rarr; 해당 tag를 사용하여 버전 정보 참조 가능
+- Staged File vs Committed File
+  - Staged File : 아직 commit하기 이전, add만 한 상태 &rarr; 아직은 파일의 변화를 지켜보는 단계
+  - Committed File : 현재 상태를 commit하여 git repository에 저장하는 것 &rarr; 유의미한 결과가 나온 경우
 
 ## **untracked vs tracked**
 
 - untracked : 새로 만든 파일 등 아직 git에게 알려지지 않은 파일
 - tracked : 한번이라도 git에 노출된 파일
+  - Tracked File vs staged Filed
+    - Tracked File : 변화 중인 작업물
+    - staged Filed : commit을 하기 직전 최종본
 
 ## **CLI vs GUI**
 
