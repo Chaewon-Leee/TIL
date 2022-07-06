@@ -3,101 +3,112 @@
 ## **Git 기본 명령어**
 
 - ### init
+  - 현재 저장소를 Working directory로 선언 &rarr; 지정한 폴더에서 파일 생성 및 관리
+  - 기본적으로 master branch 생성됨
 
 ```
-    git init
+  git init
 ```
-
-    - 현재 저장소를 Working directory로 선언 &rarr; 지정한 폴더에서 파일 생성 및 관리
-    - 기본적으로 master branch 생성됨
 
 - ### add
+  - 파일 생성 및 업데이트시 git이 track할 수 있도록 추가
 
 ```
-    git add [파일명]
+  git add [파일명]
+  git add . : 모든 변경사항 추가
+  git add \*.[확장자명]  : 해당 확장자명으로 끝나는 모든 변경사항 추가
 ```
 
-- 파일 생성 / 업데이트시 이를 track할 수 있도록 해주는 것
-  - git add . 도 가능 > 지양
-  - git add \*.txt --> 해당 확장자명 [txt]로 끝나는 모든 걸 추가
 - ### commit
+  - Git add만으로는 저장이 안 됨! &rarr; 실제 history를 만들어주는 것 = commit 사용
+  - 파일 삭제시 그냥 파일을 지우게 될 경우, commit된 파일은 실제로 지워지지 않는 경우가 존재 &rarr; git에서 제거 필요
 
 ```
-    git commit [파일명] ... -m " text message "
-    git commit -am " text message " : add와 message 동시에 하는 것 (단, 새로 추가된; untracked된 파일이 업을 때 한정)
+  git commit [파일명] ... -m " text message "
+  git commit -am " text message " : add와 message 동시에 하는 것 (단, 새로 추가된; untracked된 파일이 없을 때 한정)
 
 ```
 
-- 현재 상태를 저장하는 것
-- 실제 버전을 만들어주고, 메시지를 남겨 해당 버전에 대한 설명 추가
-- Git add만으로는 저장이 안됨! --> commit이 실제 history를 만들어주는것
-- 파일 삭제시 그냥 파일을 지우게 될 경우, commit된 파일은 실제로 지워지지 않는 경우가 존재 &rarr; git에서 제거 필요
+- ### rm
+  - commit된 파일 삭제
 
-ㅇ git rm
+```
+  git rm [파일명]
+  git rm --cached \* : 모든 파일 삭제
+```
 
-commit된 파일 삭제
+- ### mv
+  - 파일명 바꾸기
 
-git rm [파일명]
+```
+  git mv [파일명] [바꾸고자 하는 파일명]
+```
 
-git rm --cached \* : 모든 파일 삭제
+- ### status
+  - 현재 상황에서 변경사항이 존재하는 파일 파악
 
-ㅇ git mv
+```
+  git status
+```
 
-파일명을 바꾼다
+- ### diff
+  - 라인 추가, 삭제 등 파일 내부 내용이 변경되었는지 알려줌
+  - 변경사항을 좀 더 구체적으로 보여주는 명령어
 
-git mv [파일명] [바꾸고자 하는 파일명]
+```
+  git diff
+  git diff --cached [특정 파일명] : 특정 파일명에 대한 diff
+```
 
-ㅇ git status
+- ### status vs diff
 
-- 현재의 상태를 볼 수 커맨드
+  - status : commit을 할 수 있는 파일과 아닌 파일만을 보여줌
+  - diff : working directory와 staging area에 있는 것을 비교하여 변경사항을 보여줌
+    - staging area에 모두 있을 경우, git diff는 아무것도 출력하지 않음!
 
-변경사항들 뜸
+- ### gitignore
+  - commit을 배제할 파일 지정
+  - 설정 파일, 기본적으로 깔려있는 파일, 보안상 민감한 파일 등 관리할 필요가 없는 파일들에게 적용
+    <br> = tracking하고 싶지 않은 파일을 저장
+  - gitignore 파일 안에 있는 [파일명]들은 git에게 전송 ❌
+    - 파일명 뿐만 아니라 \*.[확장자명] / 디렉토리 경로 등 다양하게 추가 가능
+    - !not_ignore_this.[파일명] : 배제해야하는 확장자명이지만 해당 파일은 포함시키지 않을 경우 사용
 
-ㅇ gitignore : 배제할 요소 지정
+```
+  .gitignore 파일 생성 후 mv .gitignore.txt .gitignore 필요
+```
 
-- 설정 파일, 기본적으로 깔려있는 파일, 보안상 민감한 파일 등 관리할 필요가 없는 파일들에게 적용
+## **Git Log 명령어**
 
-tracking하고 싶지 않은 파일을 저장
+- ### Log
+  - commit된 history를 살펴보는 것
 
-- .gitignore 파일 생성 —> mv .gitignore.txt .gitignore
+```
+  commit [hash code]
+  Author : [git config 사용자 정보]
+  Date : [git을 한 시간]
 
-- 해당 파일 안에 있는 [파일명] 들은 git이 무시하게 됨
+  [저장된 메시지]
+```
 
-파일명 뿐만 아니라 \*.[확장자명] / 디렉토리 경로 등 다양하게 추가 가능
+- ### reset vs Revert
 
-!not_ignore_this.[확장자명] --> 무시해야할 확장자지만 해당 파일은 무시하지 않겠다
+  - 둘다 이전 history로 돌리는 방법
+  - reset : 이전으로 돌아갔을 때 해당 이후 행적들은 모두 지움
+  - revert : 과거 이후 행적을 거꾸로 수행한 결과물의 history 새롭게 추가하는 방식
+    - revert의 경우, 이미 지나온 history 중 잘못된 부분만 거꾸로 수행하여 해당 파일만 취소 가능
 
-ㅇ git diff
+- ### reset
 
-어떤 파일이 변화되었는지 이전 버전과 비교하여 확인
+```
+  git reset --hard [커밋 해시]
+```
 
-변경사항을 좀 더 구체적으로 보여주는 명령어
+- ### Revert
 
-▲ Git Log
-
-ㅇ 이전으로 돌리는 두가지 방법 reset vs Revert
-
-reset : 이전으로 돌아갔을 때 해당 이후 행적들은 모두 지움
-
-git reset --hard [커밋 해시]
-
-revert : 과거 이후 행적을 거꾸로 수행 (마이너스하기??) 한 결과물을 새롭게 추가하는 방식
-
-이미 지나온 과거 중 하나만 딱 잘못했을때 해당 과거만 가져와서 지울 수 있는 느낌
-
-git revert [커밋 해시]
-
-ㅇ git log
-
-그간의 git 기록 정보 보여줌
-
-commit [hash code]
-
-Author : [git config 사용자 정보]
-
-Date : [git을 한 시간]
-
-[저장된 메시지]
+```
+  git revert [커밋 해시]
+```
 
 ㅇ git checkout
 
