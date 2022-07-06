@@ -71,10 +71,10 @@
 
 ### **status vs diff**
 
-- status : working directory와 staging area의 상태만을 보여줌
-  - 현재 commit 가능 여부 상태를 보여줌
-- diff : working directory와 staging area를 비교하여 실제 변경사항을 알려줌
-  - 수정한 파일을 모두 staging area에 넣는다면 git diff 명령은 아무것도 출력 ❌
+|                       status                       |                                    diff                                     |
+| :------------------------------------------------: | :-------------------------------------------------------------------------: |
+| working directory와 staging area의 상태만을 보여줌 |     working directory와 staging area를 비교하여 실제 변경사항을 알려줌      |
+|        현재 commit 가능 여부 상태를 보여줌         | 수정한 파일을 모두 staging area에 넣는다면 git diff 명령은 아무것도 출력 ❌ |
 
 ### **gitignore**
 
@@ -110,9 +110,10 @@
 ### **reset vs Revert**
 
 - history를 되돌리는 두 가지 방법
-- reset : 이전으로 돌아갔을 때 해당 이후 행적들은 모두 지움
-- revert : history 중 하나의 행적을 선택하여 이를 거꾸로 수행한 결과물을 새롭게 추가하는 방식
-  - 쌓아온 history 중 잘못된 것만 가져와 거꾸로 수행하여 지울 수 있다
+  | reset | revert |
+  | :--------------------------------: | :--------------------------------------: |
+  | 이전으로 돌아갔을 때 해당 이후 행적들은 모두 지움 | history 중 하나의 행적을 선택하여 이를 거꾸로 수행한 결과물을 새롭게 추가하는 방식 |
+  | | 쌓아온 history 중 잘못된 것만 가져와 거꾸로 수행하여 지울 수 있다 |
 
 ### **reset**
 
