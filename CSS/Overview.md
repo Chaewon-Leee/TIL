@@ -48,7 +48,7 @@ CSS 확장자로 파일로 저장 -> HTML 파일에 import 가능!
 # CSS 선언하기
 
 - 3가지 방법 존재
-- 인라인 스타일
+- 인라인 스타일 (inline)
   - 각 html 태그에 직접 style 속성을 이용해서 선언
   <p style="font-size: 11pt"> -> 여러개의 속성을 사용하고 싶을 경우, 세미콜론 (;)으로 이어서 계속 사용!
   <p style="font-size: 11pt; color:white;">
