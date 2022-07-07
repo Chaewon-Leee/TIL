@@ -11,6 +11,8 @@
 ### **head**
 
 - 현재 branch상 최상위 branch
+- 나의 가장 최신 상태
+- head tag : 북마크를 달듯이 head를 손쉽게 찾을 수 있도록 tag를 달아 찾는 것
 
 ## **Branch 명령어**
 
