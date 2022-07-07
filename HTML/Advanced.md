@@ -28,7 +28,7 @@
 - 어떠한 기능 및 변화가 없지만 의미를 파악하도록 함
 <header></header> 가장 상단의 중요한 제목
 <footer></footer> 가장 하단에 있는 정보들을 의미함을 나타냄
-<article></article> 본문
+<article></article> 본문 : 반복되는 아이들
 <section></section> : 다른것들도 모두 섹션임!
 하지만 뭔가 header 이런것들로 나누기 애매한 것들을 section으로 분류하면 됨
 
@@ -40,3 +40,17 @@
 모바일 지원
 
 HTML5
+
+box
+
+- header footer nav aside main section article : 재사용 가능한 코드, 여러개가 들어갈 수 있음 div : 묶어서 스타일링을 할 때 div로 묶음 span form
+
+item : 사용자에ㅔ게 보여지는 아이템
+
+- block : 한줄에 하나씩 차지하는 것
+- inline : 공간이 괜찮으면 옆에 배치 가능 = 한줄로 배치
+- a video button audio input map label canvas img table
+<b> <span> 같은 경우 인라인 -> bold로 강조 해주고 하는 정도니까
+<div> 같은 경우 다음줄로 넘어가니까 block
+
+<!-- 주식-- > 주석방법
