@@ -10,11 +10,13 @@ form
 ### **태그**
 
 <input type="text"> : input 태그 사용자에게 입력을 받겠다
-type 속성 : 어떠한 타입의 정보를 받을 것인지
--> 사용자가 정보를 입력할 수 있는 박스가 생김
-아이디 : <input type="text">
-비밀번호 : <input type="password"> ->비밀번호 type이 존재
-<input type = "submit"> : 제출하는 버튼이 생긴다
+
+- 인라인 타입
+  type 속성 : 어떠한 타입의 정보를 받을 것인지
+  -> 사용자가 정보를 입력할 수 있는 박스가 생김
+  아이디 : <input type="text">
+  비밀번호 : <input type="password"> ->비밀번호 type이 존재
+  <input type = "submit"> : 제출하는 버튼이 생긴다
 
 그ㅓㅎ다면 어디로 제출이 되는가? -> form의 action 속성 활용!
 

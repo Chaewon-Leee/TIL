@@ -97,3 +97,5 @@ W3C : 웹 표준화를 추진하는 곳
 HTML은 header nav aside main footer로 봄
 -> 해당 main 안에서도 section안 여러개의 article로 구성될 수 있다
 불리언에 해당하는 것들은 태그를 넣지 않아도 됨
+
+cmd + option + i 로 참고가능!
