@@ -119,6 +119,7 @@
 
 ```
     git reset --hard [커밋 해시]
+    git reset --hard : 삭제한한 commit 복원
 ```
 
 ### **reset**
