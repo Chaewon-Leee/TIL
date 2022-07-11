@@ -48,27 +48,27 @@ CSS 확장자로 파일로 저장 -> HTML 파일에 import 가능!
 # CSS 선언하기
 
 - 3가지 방법 존재
-- 인라인 스타일 (inline)
-  - 각 html 태그에 직접 style 속성을 이용해서 선언
-  <p style="font-size: 11pt"> -> 여러개의 속성을 사용하고 싶을 경우, 세미콜론 (;)으로 이어서 계속 사용!
-  <p style="font-size: 11pt; color:white;">
-  -> 분리 어렵고, 큰 프로젝트면 고치기도 어렵, 하나하나 해주기도 힘들다는 단점
-- 내부 스타일 시트
-  - 같은 html파일 내에 style 태그를 사용해서 태그 내부에 선언, 보통 head 태그 내에 style 태그를 작성, 선택자라는 문법을 사용해서 문서 내의 요소 (HTML 태그로 생성된 화면 요소)를 선택해 스타일을 지정
-  <head>
-      <style>
-      p {
-          font-size: 11pt;
-      }
-      </style>
-  </head>
-  - CSS 시트 적용
-  - 얘도 큰 프로젝트일 경우, 각 파일마다 동일하게 작성해야한다는 점이 단점이 됨
-- 외부 스타일 시트
-  - 내부 스타일 선언에 선언된 스타일 세트들을 외부파일 (.css 확장자를 가진)에 선언하고 linke 태그로 적용하려는 html에 불러오는 방법
-  <head>
-      <link rel="stylesheet" type="text/css" href="CSS 파일명">
-  <head>
+  - 인라인 스타일 (inline)
+    - 각 html 태그에 직접 style 속성을 이용해서 선언
+    <p style="font-size: 11pt"> -> 여러개의 속성을 사용하고 싶을 경우, 세미콜론 (;)으로 이어서 계속 사용!
+    <p style="font-size: 11pt; color:white;">
+    -> 분리 어렵고, 큰 프로젝트면 고치기도 어렵, 하나하나 해주기도 힘들다는 단점
+  - 내부 스타일 시트
+    - 같은 html파일 내에 style 태그를 사용해서 태그 내부에 선언, 보통 head 태그 내에 style 태그를 작성, 선택자라는 문법을 사용해서 문서 내의 요소 (HTML 태그로 생성된 화면 요소)를 선택해 스타일을 지정
+      <head>
+          <style>
+          p {
+              font-size: 11pt;
+          }
+          </style>
+      </head>
+    - CSS 시트 적용
+    - 얘도 큰 프로젝트일 경우, 각 파일마다 동일하게 작성해야한다는 점이 단점이 됨
+  - 외부 스타일 시트
+    - 내부 스타일 선언에 선언된 스타일 세트들을 외부파일 (.css 확장자를 가진)에 선언하고 linke 태그로 적용하려는 html에 불러오는 방법
+      <head>
+          <link rel="stylesheet" type="text/css" href="CSS 파일명">
+      <head>
 
 # 주석
 
