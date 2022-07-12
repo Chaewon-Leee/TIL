@@ -70,6 +70,10 @@ CSS 확장자로 파일로 저장 -> HTML 파일에 import 가능!
           <link rel="stylesheet" type="text/css" href="CSS 파일명">
       <head>
 
+* CSS 규칙의 우선순위는 어떻게 결정될까요?
+* Flexbox(Flexible box)와 CSS Grid의 차이와 장단점은 무엇일까요?
+* CSS의 비슷한 요소들을 어떤 식으로 정리할 수 있을까요?
+
 # 주석
 
 /\* \*/
