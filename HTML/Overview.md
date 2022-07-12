@@ -87,12 +87,10 @@
 
 ### **시멘틱 태그**
 
-- 시맨틱 태그는 무엇일까요?
-  - 시맨틱 엘리먼트를 사용하면 어떤 점이 좋을까요?
-  - `<section>`과 `<div>`, `<header>`, `<footer>`, `<article>` 엘리먼트의 차이점은 무엇인가요?
-- 블록 레벨 엘리먼트와 인라인 엘리먼트는 어떤 차이가 있을까요?
+- 의미를 부여하여 사이트의 구조를 쉽게 파악하고자 하는 태그
+- 기존에는 `<div id="header">`과 같이 사용하였음
 
-* header / nav / section / article / aside / footer 구성
+- header / nav / section / article / aside / footer 구성
   |header| nav |body |aside| main| footer|
   |:--:|:--:|:--:|:--:|:--:|:--:|
   |문서의 가장 윗 부분|목적지로 이동할 수 있도록 링크를 별도로 모아놓은 영역|특정 구역을 나타냄|자체로 독립적인 내용 표현|사이드바 영역|문서 맨 아래쪽|
