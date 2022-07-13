@@ -1,6 +1,4 @@
-# TIL
-
-:sparkles:TODAY I LEARNED:sparkles:
+# TIL :sparkles:TODAY I LEARNED:sparkles:
 
 ## 📌 [GIT](GIT)
 
