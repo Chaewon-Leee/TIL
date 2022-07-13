@@ -48,3 +48,9 @@ height : 20px
 
 게임
 https://flukeout.github.io/
+
+class 와 id 차이점
+
+- class는 여러개를 그룹핑
+- id는 하나만 지정!
+  - id는 중복되면 안됨!
