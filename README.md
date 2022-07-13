@@ -2,14 +2,8 @@
 
 :sparkles:TODAY I LEARNED:sparkles:
 
-## 📌 GIT
+## 📌 [GIT](GIT)
 
-- [Overview](GIT)
+## 📌 [HTML](HTML)
 
-## 📌 HTML
-
-- [Overview](HTML)
-
-## 📌 CSS
-
-- [Overview](CSS)
+## 📌 [CSS](CSS)
