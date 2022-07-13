@@ -1,9 +1,9 @@
 # :star2: GIT :star2:
 
-## [Overview](GIT/Overview.md)
+- ### [Overview](GIT/Overview.md)
 
-## [Basic](GIT/Basic.md)
+- ### [Basic](GIT/Basic.md)
 
-## [Branch](GIT/Branch.md)
+- ### [Branch](GIT/Branch.md)
 
-## [Remote repository](GIT/Remote_repository.md)
+- ### [Remote repository](GIT/Remote_repository.md)

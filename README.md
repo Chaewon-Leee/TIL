@@ -1,7 +1,7 @@
 # :sparkles:TODAY I LEARNED:sparkles:
 
-## 📌 [GIT](GIT)
+### 📌 [GIT](GIT)
 
-## 📌 [HTML](HTML)
+### 📌 [HTML](HTML)
 
-## 📌 [CSS](CSS)
+### 📌 [CSS](CSS)
