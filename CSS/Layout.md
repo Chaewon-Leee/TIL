@@ -32,7 +32,6 @@ float : 이미지와 텍스트를 정리하기 위함
 float : left / center / right - 글이 이미지를 감싸되 어느 위치에 이미지가 존재하는지 - 이를 레이아웃 용으로 사용하기 위해ㅓ float 안 float 등 사용했지만 현재 flexbox가 나타나면서 본래의 용도로 돌아감
 
 flexbox
-
 1. 컨테이너에 적용되는 속성과 아이템에 적용되는 속성값이 존재
 2. flexbox는 중심축 (main axis)와 반대축 (cross axis) 존재
 
