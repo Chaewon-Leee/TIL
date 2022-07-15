@@ -80,6 +80,7 @@ default로 선택되었으면 하는 경우 checked 추가!
 <input type="button" value="버튼"> -> submit과 다르게 정말 버튼만 만들어줌
 <input type="button" value="버튼" onclick="alert('hello world')"> -> 자바스크립트와 같이 쓸 때 활용하는 버트
 <input type="reset"> -> 사용자의 정보가 모두 리셋이 된다
+<button> 태그 존재함!!! -> 디자인적으로나 자바스크립트 적으로 우세한듯?
 
 -- hidden
 
