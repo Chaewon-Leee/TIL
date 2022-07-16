@@ -22,23 +22,17 @@
 
       <!-- 일정 관리창 -->
       <section class="main">
-        <div id="todo_list">
-          <li>
-          <div class="list_display"><span>
-            <input type="checkbox"><input type="text" class ="content" value="todo_data" readonly></span><div>
-            <butoon id = "change" type="button" onclick="change_text(this)"><img src="image/change.png" style="width: 20px; height: 20px;"></butoon>
-            <butoon id = "save" type="button" onclick="save_text(this)"><img src="image/save.png" style="width: 20px; height: 20px;"></butoon></div></div>           
-          </li>
-        </div>
+          <table id="list"></table>
 
         <div class="bottom_line">
           <!-- 일정 남은 개수 -->
-          <p id="how_many_left">? 개 남았습니다.</p>
+            <input type="text" id = "how_many_num" value="">
+        
           <!-- 선택 & 삭제 버튼 -->
           <div class="bottom_buttons">
-            <button id="bottom_buttons" type="button">전체 선택</button>
-            <button id="bottom_buttons" type="button">전체 해제</button>
-            <button id="bottom_buttons" type="button">선택 삭제</button>
+            <button id="bottom_buttons" type="button" onclick="all_checked()">전체 선택</button>
+            <button id="bottom_buttons" type="button" onclick="all_unchecked()">전체 해제</button>
+            <button id="bottom_buttons" type="button" onclick="delete_checked()">선택 삭제</button>
           </div>
         </div>
 

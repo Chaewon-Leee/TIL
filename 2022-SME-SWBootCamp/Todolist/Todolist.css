@@ -36,19 +36,20 @@ body {
     color:cadetblue;
 }
 
-.main{
+/* 일정 관리창 */
+#todo_list {
+    width:500px;
     margin-top: 20px;
 }
 
-/* 일정 관리창 */
-#todo_list {
-    display: flex; flex-direction: column;
-    width:500px;
+#list {
+    margin-bottom: 20px;
 }
 
-li {
-    list-style:none;
-    padding:10px 0px 0px 0px;
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
 }
 
 .list_display {
@@ -62,17 +63,24 @@ li {
     font-size: medium;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
     width:20px; height:20px; margin: 0px 20px 0px 30px;
 }
 
 /* 수정 */
 #change {
+    border: none;
+    border-right:0px; border-top:0px; border-left:0px; border-bottom:0px;
     margin-right: 10px;
+    background-color:transparent;
 }
 
+/* 저장 */
 #save {
+    border: none;
+    border-right:0px; border-top:0px; border-left:0px; border-bottom:0px;
     margin-right: 20px;
+    background-color:transparent;
 }
 
 .bottom_line {
@@ -81,8 +89,11 @@ input[type=checkbox] {
 }
 
 /* 일정 남은 개수 */
-#how_many_left {
-    margin-left: 30px;
+
+#how_many_num {
+    border: none;
+    border-right:0px; border-top:0px; border-left:0px; border-bottom:0px;
+    width: 100px; margin-left: 30px; font-size: medium;
 }
 
 /* 선택 & 삭제 버튼 */
