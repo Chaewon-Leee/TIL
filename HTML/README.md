@@ -5,5 +5,3 @@
 - ### [Basic](HTML/Basic.md)
 
 - ### [Form](HTML/Form.md)
-
-- ### [Advanced](HTML/Advanced.md)

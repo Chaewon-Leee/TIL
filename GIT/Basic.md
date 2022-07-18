@@ -107,7 +107,7 @@
     [저장된 메시지]
 ```
 
-### **reset vs Revert**
+### **reset vs revert**
 
 - history를 되돌리는 두 가지 방법
   | reset | revert |
@@ -122,7 +122,7 @@
     git reset --hard : 삭제한한 commit 복원
 ```
 
-### **reset**
+### **revert**
 
 ```
     git revert [커밋 해시]
