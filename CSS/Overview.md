@@ -1,21 +1,25 @@
-# CSS (Cascading Style Shetts)
+# ✨ CSS OVERVIEW ✨
+
+## **CSS란?**
+
+### **CSS (Cascading Style Shetts)**
 
 : HTML 웹 문서의 스타일을 표현하는 언어로 HTML 코드로 작성된 웹 요소들이 어떻게 푯되어야 할지를 정의한다
 
-# CSS 구성
+### **CSS 구성**
 
 : 화면상의 HTML로 이루어진 요소들에 대응하여 스타일 세트를 각각 적용
 선택자 (selector) : 어느 부분의 요소 스타일을 지정할 것인가
 CSS 속성 : 글자 크기 등 스타일 속성
 CSS 속성 값
 
-## Cascading
+### **Cascading**
 
 - Author style (우리가 작성하는 스타일) -> User style (브라우저에서 사용자가 변경) -> Browser (기보 스타일) 순 우선순위
   -> important로 해당 cascading으 끊고 순위를 바꿀 수 있음! (연결고리 무시))
   -> 다른 개발자와 사용하는 경우 잘 쓰지 않음
 
-# 구조
+## **구조**
 
 선택자 {
 태그이름 : 값;
@@ -23,7 +27,7 @@ CSS 속성 값
 ... }
 -> 속성을 정의하는 문법
 
-## 선택자
+### **선택자**
 
 - Universal **\*** : 모두에게 적용
   - { ... }
@@ -45,7 +49,7 @@ CSS 속성 값
 
 CSS 확장자로 파일로 저장 -> HTML 파일에 import 가능!
 
-# CSS 선언하기
+## **CSS 선언**
 
 - 3가지 방법 존재
   - 인라인 스타일 (inline)
@@ -74,6 +78,6 @@ CSS 확장자로 파일로 저장 -> HTML 파일에 import 가능!
 * Flexbox(Flexible box)와 CSS Grid의 차이와 장단점은 무엇일까요?
 * CSS의 비슷한 요소들을 어떤 식으로 정리할 수 있을까요?
 
-# 주석
+### **주석**
 
 /\* \*/

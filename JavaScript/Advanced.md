@@ -2,6 +2,12 @@
 getElementsByClassName : class 이용
 위에 코드를 보면 html파일의 button태그에 btn1이라는 id값을 주었습니다. 만약 버튼(button)이 여러개이고, 이중에서 하나의 버튼에 대해서만 특정 함수가 작동하길 바란다면 그 특정 버튼에 id값을 주어 다른 버튼들과 구분할 수 있습니다.
 
+class 와 id 차이점
+
+- class는 여러개를 그룹핑
+- id는 하나만 지정!
+  - id는 중복되면 안됨!
+
 Dom객체(eventTarget객체)로부터 이벤트가 발생할 때, 해당 이벤트 처리 핸들러를 추가할 수 있는 오브젝트
 
 포커스 이벤트(focus, blur)
