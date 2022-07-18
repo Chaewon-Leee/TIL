@@ -1,17 +1,17 @@
 # :sparkles:TODAY I LEARNED:sparkles:
 
-### 📌 [GIT](GIT)
+### [GIT](GIT)
 
-### 📌 [HTML](HTML)
+### [HTML](HTML)
 
-### 📌 [CSS](CSS)
+### [CSS](CSS)
 
-### 📌 [JAVASCRIPT](Javascript)
+### [JAVASCRIPT](Javascript)
 
-### 📌 [DB MODELING](DB_modeling)
+### [DB MODELING](DB_modeling)
 
-### 📌 [2022 SME SW BOOTCAMP](2022-SME-SWBootCamp)
+### [2022 SME SW BOOTCAMP](2022-SME-SWBootCamp)
 
 - [NAVER](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/Naver)
-- [Todolist](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/Todolist)
-- [DB modeling](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/DB_modeling)
+- [TO DO LIST](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/Todolist)
+- [DB MODELING](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/DB_modeling)
