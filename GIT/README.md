@@ -1,6 +1,6 @@
 # :star2: GIT :star2:
 
-- ### [Overview](GIT/Overview.md)
+- ### [Overview](/Overview.md)
 
   - Git에 관하여 (정의, 특징, 사용하는 이유, Git과 Github의 차이점)
   - workflow (working directory, staging area, git directory, modified file, commited file, Staged File, untracked과 tracked 차이점, Staged와 tracked 차이점, CLI와 GUI 차이점)
