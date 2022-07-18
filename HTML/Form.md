@@ -58,7 +58,7 @@
 </select>
 ```
 
-### **radio, checkbox**
+### **radio & checkbox**
 
 - name값이 같은 것들끼리 그룹핑 되고, 한 그룹 안에서 하나가 선택되면 나머지는 해제되는 형태
 
