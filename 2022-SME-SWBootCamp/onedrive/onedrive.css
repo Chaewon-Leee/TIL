@@ -1,0 +1,27 @@
+/* 네비게이션 바 */
+
+/* 기본 설정 */
+a.nav-link {
+    color: white;
+}
+
+nav.navbar {
+    height: 48px;
+    background-color: #137AD1;
+}
+
+/* 원드라이브 글씨 */
+a.navbar-brand {
+    font-size: medium;
+}
+
+/* 검색바 */
+div.input-group {
+    height: 32px; width: 468px;
+}
+
+#button-addon1 {
+    transform: scaleX(-1);
+    font-size:15px;
+    color: #137AD1;
+}
