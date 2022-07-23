@@ -1,54 +1,101 @@
-/* 네비게이션 바 */
+body, html {
+    width:100%;
+    height: 100px;
+}
 
-/* 기본 설정 */
-nav.navbar {
+/* 상단 네비게이션 바 */
+
+.window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
     height: 48px;
     background-color: #137AD1;
 }
 
-i.bi {
-    font-size:18px;
-    color: white;
-}
-
-#button-addon1 {
-    background-color: #137AD1;
-    border-color: #137AD1;
+button.navbar-buttons {
     border:none;
-    width: 50px;
+    background-color: #137AD1;
+    color:white;
+    padding-top: 5px;
+    width: 48px;
     height: 48px;
     box-sizing: border-box;
-    margin-top: -3px;
+    margin-top: -12px;
 }
 
-#button-addon1:hover {
+button.navbar-buttons:hover {
     background-color: #084F8F;
 }
-/* 원드라이브 글씨 */
-span.navbar-brand {
+
+.navbar-brand {
+    color:white;
     font-size: medium;
+    margin-left: 10px;
 }
 
-/* 검색바 */
-div.input-group {
-    height: 32px; width: 468px;
-    margin-left: 20px;
-}
-
-#search-button {
-    transform: scaleX(-1);
-    font-size:15px;
+.navbar-input-icon {
+    position: absolute;
     color: #137AD1;
+    margin-top: 8px;
+    margin-left: 15px;
 }
 
-#button-addon2 {
-    background-color: #E1DFDD;
-    border-color: #E1DFDD;
+input.input-groups-text {
     border:none;
-    box-sizing: border-box;
+    background-color: #E1DFDD;
+    height:32px;
+    padding-left: 45px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+    max-width:486px;
+    min-width:300px;
+    width: 40vw;
 }
 
-input.form-control {
-    background-color: #E1DFDD;
+input.input-groups-text::placeholder{
+    font-size: 15px;
 }
+
+input.input-groups-text:focus {
+    outline:none;
+    background-color: white;
+}
+
+input.input-groups-text:hover {
+    background-color: white;
+}
+
+/* 사이드바 */
+
+/* .main_container {
+    position: absolute;
+    width: 100%;
+} */
+
+.aside_container {
+    flex: none;
+    width: 228px;
+    /* height: auto; */
+    height: 100%;
+    background-color: rgb(226, 226, 226); 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 메인 */
+
+/* .main_menu {
+    flex: none;
+    background-color: green;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+} */
 

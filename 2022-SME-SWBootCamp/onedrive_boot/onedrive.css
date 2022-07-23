@@ -1,0 +1,60 @@
+/* 기본 설정 */
+nav {
+        height: 48px;
+        background-color: #137AD1;
+}
+
+
+i.bi {
+    font-size:15px;
+    color: white;
+}
+
+#button-addon1 {
+    background-color: #137AD1;
+    border-color: #137AD1;
+    border:none;
+    width: 50px;
+    height: 48px;
+    box-sizing: border-box;
+    margin-top: -3px;
+}
+
+#button-addon1:hover {
+    background-color: #084F8F;
+}
+
+/* 원드라이브 글씨 */
+span.navbar-brand {
+    font-size: medium;
+    margin-left: -7px;
+}
+
+/* 검색바 */
+#search-div {
+    height: 32px;
+    margin-left: 20px;
+    width: 468px;
+}
+
+#search-button {
+    transform: scaleX(-1);
+    font-size:15px; margin-left: 10px;
+    color: #137AD1;
+}
+
+.button-addon2 {
+    background-color: #E1DFDD;
+    border:none;
+    box-sizing: border-box;
+}
+
+input#search-input {
+    background-color: #E1DFDD;
+    border:none;
+    max-width: 100%;
+}
+
+input#search-input:focus {
+    outline:none;
+}
