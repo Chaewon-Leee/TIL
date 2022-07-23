@@ -7,6 +7,13 @@ add_button.addEventListener("click", function () {
     add_list();
 });
 
+// function setcolor(t) {
+//     const div = t.parentNode.parentNode;
+//     if (t.checked) {
+//         div.style.backgroundColor = red;
+//     }
+// }
+
 function add_list() {
     const content_text =
         `<div class="no-words-add" style="width: 48px;"><input type="checkbox" name="checkbox"></div>
