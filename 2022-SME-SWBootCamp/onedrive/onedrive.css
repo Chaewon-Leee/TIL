@@ -5,6 +5,7 @@ body, html {
 
 span {
     font-size: 14px;
+    color: black;
 }
 
 i.ms-Icon {
@@ -13,6 +14,7 @@ i.ms-Icon {
 
 i.ms-Icon.ms-Icon--ChevronDown {
     font-size: 10px;
+    color: black;
 }
 
 /* 상단 네비게이션 바 */
@@ -105,20 +107,18 @@ input.input-groups-text:hover {
     background-color: rgb(250, 250, 250);
     width: 218px;
     height: 40px;
-    color: #424242;
     display: flex;
     align-items: center;
 }
 
 .aside-div:hover {
     background-color: #E1DFDD;
-    /* color:red; */
+    color: #137AD1;
 }
 
 .aside-div > i {
     padding-left: 15px;
     padding-right: 10px;
-    color: #424242;
 }
 
 .dia-button {
@@ -159,11 +159,13 @@ input.input-groups-text:hover {
     padding: 0px 10px 0px 10px;
     border: none;
     height: 32px;
+
     background-color: rgb(250, 250, 250);
 }
 
 .main-menu-button:hover {
     background-color:#E1DFDD;
+    color: #137AD1;
 }
 
 .main-menu-button-new {
@@ -172,12 +174,26 @@ input.input-groups-text:hover {
     border: none;
     height: 32px;
     margin-left: 30px;
+    
     background-color:#137AD1;
     padding: 0 15px 0 15px;
 }
 
 .main-menu-button-new:hover {
     background-color:#084F8F;
+}
+
+.main-menu-button-delete {
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    height: 32px;
+    background-color:rgb(250, 250, 250);
+}
+
+.main-menu-button-delete:hover {
+    background-color:#E1DFDD;
+    color:#137AD1;
 }
 
 .main_content {
@@ -188,11 +204,69 @@ input.input-groups-text:hover {
 
 .file_container {
     display: flex; justify-content: flex-start; flex-direction: column;
-    border: 1px solid #E1DFDD;
+    /* border: 1px solid #E1DFDD; */
+    background-color: white;
     /* flex-shrink: 0;
     flex-basis: 0; */
     border-radius: 5px 5px 5px 5px;
     border-bottom-width: thin;
-    box-shadow: 1px 1px 1px 1px lightgray;
+    box-shadow: 1px 1px 1px 2px lightgray;
 }
 
+.file_container-div {
+    height: 100%;
+    display: flex; align-items: center;
+    padding-left: 10px;
+}
+
+.file_container-div:hover {
+    background-color: #E1DFDD;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+/* input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #616161;
+    appearance: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+input[type="checkbox"]::after {
+    content: '\2714'; /* 체크박스 특수문자 */
+    /* opacity: 0;
+}
+
+  input[type="checkbox"]:checked {
+    background: #32e732;
+    opacity: 1;
+    border: none;
+} */ 
+
+.files-div {
+    display: flex; justify-content: flex-start;
+    height:42px; align-items: center;
+}
+
+.file-div-add {
+    border-bottom: solid;
+    border-bottom-color:#E1DFDD;
+    border-bottom-width: thin;
+    height: 100%;
+    display: flex; align-items: center;
+    padding-left: 10px;
+}
+
+.no-words-add {
+    display: flex; justify-content: center; align-items: center;
+    border-bottom: solid;
+    border-bottom-color:#E1DFDD;
+    border-bottom-width: thin;
+    height: 100%;
+}
