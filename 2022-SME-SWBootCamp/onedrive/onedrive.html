@@ -16,7 +16,7 @@
             <div class="window">
                 <div style="flex: none;">
                     <button type="button" class="navbar-buttons">
-                        <i class="ms-Icon ms-Icon--WaffleOffice365" style="font-size: 15px;"aria-hidden="true"></i>
+                        <i class="ms-Icon ms-Icon--WaffleOffice365" aria-hidden="true"></i>
                     </button>
                     <span class="navbar-brand">OneDrive</span>
                 </div>
@@ -50,17 +50,19 @@
             <aside>
                 <div class="aside_container">
                     <div style="display: flex; flex-direction: column; justify-content: flex-start;">
-                        <p>이 채원</p>
-                        <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                        <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                        <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                        <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                        <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
+                        <p style="margin: 20px 0 16px 16px; font-size: 14px;">이 채원</p>
+                        <div class="aside-div" style="border-left: solid; border-left-color:#137AD1; border-left-width: medium; margin-left: 5px;">
+                            <i class="ms-Icon ms-Icon--FabricFolder" style="color: #137AD1; padding-left: 10px;" aria-hidden="true"></i><span><b>내 파일</b></span></div>
+                        <div class="aside-div"><i class="ms-Icon ms-Icon--History aside-div-icon" aria-hidden="true"></i><span>최근</span></div>
+                        <div class="aside-div"><i class="ms-Icon ms-Icon--Photo2 aside-div-icon" aria-hidden="true"></i><span>사진</span></div>
+                        <div class="aside-div"><i class="ms-Icon ms-Icon--People aside-div-icon" aria-hidden="true"></i><span>공유됨</span></div>
+                        <div class="aside-div"><i class="ms-Icon ms-Icon--RecycleBin aside-div-icon" aria-hidden="true"></i><span>휴지통</span></div>
                     </div>
-                    <div>
-                        <p>이 채원</p>
-                        <p>이 채원</p>
-                        <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
+                    <div style="margin: 8px 12px 8px 12px; margin-bottom: 20px;">
+                        <p style="font-size: 12px; color: #616161; margin: 0px;">모든 파일 및 사진에 대해 100GB의 스토리지를 받으세요.</p>
+                        <p style="font-size: 12px; color: #137AD1;"><u>저장소 요금제에 대해 자세히 알아보세요.</u></p>
+                        <button type="button" class="dia-button"><i class="bi bi-gem" style="color: #137AD1;"></i>
+                            <span style="color: #137AD1; padding-left: 3px;"><b>저장소 구매</b></span></button>
                     </div>
                 </div>
             </aside>
@@ -68,26 +70,33 @@
                 <div class="main_container">
                     <div class="main_menu">
                         <div>
-                            <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                            <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
+                            <button type="button" class="main-menu-button-new"><i class="ms-Icon ms-Icon--CalculatorAddition" style="font-size: 12px; color: white; padding-right: 5px;" aria-hidden="true"></i>
+                                <span style="margin-right: 10px; color: white;">새로 만들기</span><i class="ms-Icon ms-Icon--ChevronDown" style="color: white;" aria-hidden="true"></i></button>
+                            <button type="button" class="main-menu-button"><i class="ms-Icon ms-Icon--Upload" aria-hidden="true"></i>
+                                <span style="margin-right: 10px;">업로드</span><i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i></button>
                         </div>
                         <div>
-                            <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                            <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
-                            <button type="button"><i class="bi bi-person"></i><span>dsad</span></button>
+                            <button type="button" class="main-menu-button"><i class="ms-Icon ms-Icon--SortLines" style="padding-right: 5px;" aria-hidden="true"></i>
+                                <span style="margin-right: 10px;">정렬</span><i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i></button>
+                            <button type="button" class="main-menu-button"><i class="bi bi-list" style="padding-right: 5px;"></i>
+                                <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i></button>
+                            <button type="button" class="main-menu-button" style="margin-right: 20px;">
+                                <i class="bi bi-folder2-open" style="padding-right: 5px; margin-right: 5px;"></i><span>정보</span></button>
                         </div>
                     </div>
                     <div class="main_content">
                         <div style="padding: 36px 32px 20px 0;"><h5>내 파일</h5></div>
                         <div class="file_container">
                             <div style="display: flex; justify-content: flex-start; height:42px; align-items: center;">
-                                <div style="width: 48px;">내 파일</div>
-                                <div style="width: 40px;">내</div>
-                                <div style="width: 300px;">내 파일</div>
-                                <div style="width: 150px;">내 파일</div>
-                                <div style="width: 150px;">내 파일</div>
-                                <div style="width: 150px;">내 파일</div>
-                                <div style="width: 170px;">내 파일</div>
+                                <div style="width: 48px;"></div>
+                                <div style="width: 40px;"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></div>
+                                <div style="width: 300px;"><span>이름</span>
+                                    <i class="ms-Icon ms-Icon--SortUp" style="font-size: 12px;" aria-hidden="true"></i><i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i></div>
+                                <div style="width: 150px;"><span>수정한 날짜</span><i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i></div>
+                                <div style="width: 150px;"><span>파일 크기</span>
+                                    <i class="ms-Icon ms-Icon--ChevronDown" aria-hidden="true"></i></div>
+                                <div style="width: 150px;"><span>공유</span></div>
+                                <div style="width: 170px;"></div>
                             </div>
                         </div>
                     </div>

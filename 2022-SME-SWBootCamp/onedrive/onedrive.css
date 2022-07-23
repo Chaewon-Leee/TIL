@@ -3,6 +3,18 @@ body, html {
     height: 100px;
 }
 
+span {
+    font-size: 14px;
+}
+
+i.ms-Icon {
+    font-size: 16px;
+}
+
+i.ms-Icon.ms-Icon--ChevronDown {
+    font-size: 10px;
+}
+
 /* 상단 네비게이션 바 */
 
 .window {
@@ -88,10 +100,41 @@ input.input-groups-text:hover {
     justify-content: space-between;
 }
 
+.aside-div {
+    border: none;
+    background-color: rgb(250, 250, 250);
+    width: 218px;
+    height: 40px;
+    color: #424242;
+    display: flex;
+    align-items: center;
+}
+
+.aside-div:hover {
+    background-color: #E1DFDD;
+    /* color:red; */
+}
+
+.aside-div > i {
+    padding-left: 15px;
+    padding-right: 10px;
+    color: #424242;
+}
+
+.dia-button {
+    background-color: #FFFFFF;
+    border-color: #E1DFDD;
+    border-width: thin;
+    width: 200px; height: 40px;
+}
+
+.dia-button:hover {
+    background-color: #E1DFDD;
+}
+
 /* 메인 */
 
 .main_container {
-    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     width: calc(100vw - 228px);
@@ -99,7 +142,7 @@ input.input-groups-text:hover {
 
 .main_menu {
     flex: none;
-    height: 50px;
+    height: 60px;
     width: 100%;
     border-bottom: solid;
     border-bottom-color:#E1DFDD;
@@ -111,8 +154,33 @@ input.input-groups-text:hover {
     align-items: center;
 }
 
+.main-menu-button{
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    height: 32px;
+    background-color: rgb(250, 250, 250);
+}
+
+.main-menu-button:hover {
+    background-color:#E1DFDD;
+}
+
+.main-menu-button-new {
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    height: 32px;
+    margin-left: 30px;
+    background-color:#137AD1;
+    padding: 0 15px 0 15px;
+}
+
+.main-menu-button-new:hover {
+    background-color:#084F8F;
+}
+
 .main_content {
-    flex: 1 1 auto;
     height: calc(100vh - 100px);
     width: 100%;
     padding: 0 32px 0 32px;
@@ -121,6 +189,8 @@ input.input-groups-text:hover {
 .file_container {
     display: flex; justify-content: flex-start; flex-direction: column;
     border: 1px solid #E1DFDD;
+    /* flex-shrink: 0;
+    flex-basis: 0; */
     border-radius: 5px 5px 5px 5px;
     border-bottom-width: thin;
     box-shadow: 1px 1px 1px 1px lightgray;
