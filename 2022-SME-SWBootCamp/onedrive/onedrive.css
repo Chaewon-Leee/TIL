@@ -69,17 +69,19 @@ input.input-groups-text:hover {
 
 /* 사이드바 */
 
-/* .main_container {
-    position: absolute;
-    width: 100%;
-} */
+.main-window {
+    height: calc(100vh - 50px);
+    display: flex; flex-direction: row;
+    background-color: rgb(250, 250, 250);
+}
 
 .aside_container {
     flex: none;
     width: 228px;
-    /* height: auto; */
-    height: 100%;
-    background-color: rgb(226, 226, 226); 
+    height: calc(100vh - 50px);
+    border-right: solid;
+    border-right-color: #E1DFDD;
+    border-right-width: thin;
 
     display: flex;
     flex-direction: column;
@@ -88,14 +90,39 @@ input.input-groups-text:hover {
 
 /* 메인 */
 
-/* .main_menu {
+.main_container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 228px);
+}
+
+.main_menu {
     flex: none;
-    background-color: green;
     height: 50px;
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-color:#E1DFDD;
+    border-bottom-width: thin;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.main_content {
+    flex: 1 1 auto;
+    height: calc(100vh - 100px);
     width: 100%;
-    position: absolute;
-} */
+    padding: 0 32px 0 32px;
+}
+
+.file_container {
+    display: flex; justify-content: flex-start; flex-direction: column;
+    border: 1px solid #E1DFDD;
+    border-radius: 5px 5px 5px 5px;
+    border-bottom-width: thin;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
 
