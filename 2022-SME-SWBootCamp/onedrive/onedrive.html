@@ -58,11 +58,17 @@
                         <div class="aside-div"><i class="ms-Icon ms-Icon--People aside-div-icon" aria-hidden="true"></i><span>공유됨</span></div>
                         <div class="aside-div"><i class="ms-Icon ms-Icon--RecycleBin aside-div-icon" aria-hidden="true"></i><span>휴지통</span></div>
                     </div>
-                    <div style="margin: 8px 12px 8px 12px; margin-bottom: 20px;">
+                    <div style="margin: 0px 12px 0px 12px;">
                         <p style="font-size: 12px; color: #616161; margin: 0px;">모든 파일 및 사진에 대해 100GB의 스토리지를 받으세요.</p>
                         <p style="font-size: 12px; color: #137AD1;"><u>저장소 요금제에 대해 자세히 알아보세요.</u></p>
                         <button type="button" class="dia-button"><i class="bi bi-gem" style="color: #137AD1;"></i>
                             <span style="color: #137AD1; padding-left: 3px;"><b>저장소 구매</b></span></button>
+                        <!-- <span><hr style="width: 20px;"></span><span><hr style="width: 20px;"></span> -->
+                        <div style="display: flex; justify-content: flex-start; margin-top: 10px;">
+                            <hr style="width: 55%; color:#0078D4; height: 2px; opacity : 2;"><hr style="width: 95%; color:#616161; height: 2px;">
+                        </div>
+                        <p style="font-size: 12px; color: #137AD1; margin-top: -15px; padding-bottom: 10px;"><u>2.19GB/5GB 중 사용</u></p>
+                        <p style="font-size: 12px; color: #137AD1;">OneDrive 앱 다운로드</p>
                     </div>
                 </div>
             </aside>
@@ -90,9 +96,9 @@
                         <div style="padding: 36px 32px 20px 0;"><h5>내 파일</h5></div>
                         <div class="file_container" id="files">
 
-                            <div style="display: flex; justify-content: flex-start; height:42px; align-items: center; border-bottom: solid; border-bottom-color:#E1DFDD; border-bottom-width: thin;">
-                                <div style="width: 48px; display: flex; justify-content: center;"><input type="checkbox"></div>
-                                <div style="width: 40px; display: flex; justify-content: center;"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></div>
+                            <div class="files-div-first">
+                                <div class="file_container-div-no" style="width: 48px;"><input type="checkbox" id = "main_checkbox" onclick="all_check()"></div>
+                                <div  class="file_container-div-no" style="width: 40px;"><i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i></div>
                                 <div class="file_container-div" style="width: 300px;"><span>이름</span>
                                     <i class="ms-Icon ms-Icon--SortUp" style="font-size: 12px;" aria-hidden="true"></i>
                                     <i class="ms-Icon ms-Icon--ChevronDown" style="padding-left: 5px;" aria-hidden="true"></i></div>
@@ -104,7 +110,7 @@
                                 <div style="width: 170px;"></div>
                             </div>
                             <div class="files-div">
-                                <div class="no-words-add" style="width: 48px;"><input type="checkbox" name="checkbox"></div>
+                                <div class="no-words-add" style="width: 48px;"><input type="checkbox" name="checkbox" onclick="ch_bg(this)"></div>
                                 <div class="no-words-add" style="width: 40px;">
                                     <img style="width: 20px;" src="https://res-1.cdn.office.net/files/fabric-cdn-prod_20211207.001//assets/item-types/20/vaultclosed.png"></div>
                                 <div class="file-div-add" style="width: 300px;"><span>개인 중요 보관소</span></div>
@@ -114,7 +120,7 @@
                                 <div style="width: 170px;"></div>
                             </div>
                             <div class="files-div">
-                                <div class="no-words-add" style="width: 48px;"><input type="checkbox" name="checkbox"></div>
+                                <div class="no-words-add" style="width: 48px;"><input type="checkbox" name="checkbox" onclick="ch_bg(this)"></div>
                                 <div class="no-words-add" style="width: 40px;">
                                     <img style="width: 20px;" src="https://res-1.cdn.office.net/files/fabric-cdn-prod_20211207.001/assets/item-types/20/folder.svg"></div>
                                 <div class="file-div-add" style="width: 300px;"><span>문서</span></div>
@@ -125,7 +131,7 @@
                             </div>
                             <div class="files-div">
                                 <div class="no-words-add" style="width: 48px;">
-                                    <input type="checkbox" name="checkbox">
+                                    <input type="checkbox" name="checkbox" onclick="ch_bg(this)">
                                 </div>
                                 <div class="no-words-add" style="width: 40px;">
                                     <img style="width: 20px;" src="https://res-1.cdn.office.net/files/fabric-cdn-prod_20211207.001/assets/item-types/20/folder.svg"></div>

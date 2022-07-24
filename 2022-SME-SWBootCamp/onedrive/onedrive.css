@@ -17,6 +17,14 @@ i.ms-Icon.ms-Icon--ChevronDown {
     color: black;
 }
 
+/* 반응형 */
+
+@media (max-width: 1000px) {
+    .aside_container {
+        display: none;
+    }
+}
+
 /* 상단 네비게이션 바 */
 
 .window {
@@ -84,7 +92,7 @@ input.input-groups-text:hover {
 /* 사이드바 */
 
 .main-window {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 48px);
     display: flex; flex-direction: row;
     background-color: rgb(250, 250, 250);
 }
@@ -92,7 +100,7 @@ input.input-groups-text:hover {
 .aside_container {
     flex: none;
     width: 228px;
-    height: calc(100vh - 50px);
+    height: 100%;
     border-right: solid;
     border-right-color: #E1DFDD;
     border-right-width: thin;
@@ -123,9 +131,12 @@ input.input-groups-text:hover {
 
 .dia-button {
     background-color: #FFFFFF;
+    width: 200px; height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: solid;
     border-color: #E1DFDD;
     border-width: thin;
-    width: 200px; height: 40px;
+    box-shadow: 0px 1px 0px 0px lightgray;
 }
 
 .dia-button:hover {
@@ -204,19 +215,30 @@ input.input-groups-text:hover {
 
 .file_container {
     display: flex; justify-content: flex-start; flex-direction: column;
-    /* border: 1px solid #E1DFDD; */
     background-color: white;
-    /* flex-shrink: 0;
-    flex-basis: 0; */
     border-radius: 5px 5px 5px 5px;
     border-bottom-width: thin;
     box-shadow: 1px 1px 1px 2px lightgray;
 }
 
+.files-div-first {
+    border-bottom: solid;
+    border-bottom-color:#E1DFDD; border-bottom-width: thin;
+    display: flex; justify-content: flex-start;
+    height:42px; align-items: center;
+    overflow: hidden;
+}
+
 .file_container-div {
     height: 100%;
     display: flex; align-items: center;
+    flex: 0 0 auto;
     padding-left: 10px;
+}
+
+.file_container-div-no {
+    display: flex; justify-content: center;
+    flex: 0 0 auto;
 }
 
 .file_container-div:hover {
@@ -228,30 +250,10 @@ input[type="checkbox"] {
     height: 18px;
 }
 
-/* input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: 1px solid #616161;
-    appearance: none;
-    cursor: pointer;
-    transition: background 0.2s;
-}
-
-input[type="checkbox"]::after {
-    content: '\2714'; /* 체크박스 특수문자 */
-    /* opacity: 0;
-}
-
-  input[type="checkbox"]:checked {
-    background: #32e732;
-    opacity: 1;
-    border: none;
-} */ 
-
 .files-div {
     display: flex; justify-content: flex-start;
     height:42px; align-items: center;
+    overflow: hidden;
 }
 
 .files-div:hover {
@@ -265,6 +267,7 @@ input[type="checkbox"]::after {
     height: 100%;
     display: flex; align-items: center;
     padding-left: 10px;
+    flex: 0 0 auto;
 }
 
 .no-words-add {
@@ -273,4 +276,5 @@ input[type="checkbox"]::after {
     border-bottom-color:#E1DFDD;
     border-bottom-width: thin;
     height: 100%;
+    flex: 0 0 auto;
 }
