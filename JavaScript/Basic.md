@@ -64,6 +64,13 @@ students.find((student) => student.score === 90);
 .sort : 정렬
 ```
 
+## **병합**
+
+```javascript
+a ?? b;
+// a가 null도 아니고 undefined도 아니면 a, 그 외의 경우는 b
+```
+
 ## **조건문**
 
 ```javascript
@@ -94,7 +101,7 @@ for(let i=0; i<fruots.length; i++>) {
 }
 // for of
 for(let fruit of fruots) {
-}
+} : 하나씩 대응해서 집어넣음
 // forEach
 fruits.forEach((fruit) => );
 
@@ -220,4 +227,7 @@ $('a') : 모든 a 태그를 다루겠다
 - UI : User Interface
   - 사용자가 시스템을 제어하기 위해 사용하는 조작장치
 - API : Application Programming Interface
-  - 웹 브라우저가 가지고 있는 기능을 문법을 위해 사용하는 조작장치들 이렇듯 application을 위해 프로그래밍 할 때 사용하는 조작장치들을 API라고 함
+  - 사용자 차원에서 개발자 차원으로 넘어간 개념
+  - 소프트웨어를 제어, 개발하기 위해 사용하는 인터페이스
+  - 웹 브라우저가 가지고 있는 기능을 문법을 위해 사용하는 조작장치들
+  - 이렇듯 application을 위해 프로그래밍 할 때 사용하는 조작장치들을 API라고 함
