@@ -15,7 +15,8 @@ export default {
     return {
       style1: {
         color: 'green',
-        fontSize: '30px'
+        fontSize: '30px',
+        width: '20px'
       }
     }
   },
