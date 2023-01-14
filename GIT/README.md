@@ -22,7 +22,7 @@
   - Github을 이용한 코드 공유 방식 (깃허브 활용방안, Fork & Pull Request(PR))
   - Github에서 가져오기 (clone, pull, fetch)
 
-- ### [Remote repository](https://github.com/cw001121/TIL/blob/main/GIT/GitFlow.md)
+- ### [Git flow](https://github.com/cw001121/TIL/blob/main/GIT/GitFlow.md)
 
   - main, develop, feature, rebase, hotfix
   - Trunk-based
