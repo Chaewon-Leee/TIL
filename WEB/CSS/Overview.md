@@ -107,11 +107,11 @@
 3. 외부 스타일 시트
    - 내부 스타일 선언에 스타일 세트들을 지니는 외부파일 (.css 확장자)를 가져와 선언
    - link 태그로 적용
-     ```
-     <head>
-        <link rel="stylesheet" type="text/css" href="CSS 파일명">
-     <head>
-     ```
+   ```
+   <head>
+    <link rel="stylesheet" type="text/css" href="CSS 파일명">
+   <head>
+   ```
 
 ### **주석**
 
