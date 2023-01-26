@@ -2,7 +2,6 @@
 
 - ### [Overview](https://github.com/cw001121/TIL/blob/main/CSS/Overview.md)
 
-  -
   - [선택자 게임](https://flukeout.github.io/)
 
 - ### [Property](https://github.com/cw001121/TIL/blob/main/CSS/Property.md)
