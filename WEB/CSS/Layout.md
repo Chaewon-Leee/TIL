@@ -4,11 +4,10 @@
 
 ### **Block & Inline**
 
-display : block / Inline으로 display 설정 변경 가능
-Block level (한줄에 하나씩 차지) - div {
-display : Inline-block;
-}
-Inline level (한줄로 배치) : contents가 없을 경우에는 아무것도 뜨지 않음! -> 컨텐츠 자체만을 꾸며주는 것!
+- display : block / Inline으로 display 설정 변경 가능
+  |Block level|Inline level|
+  |:--:|:--:|
+  |`div {display : Inline-block;}`|contents가 없을 경우에는 아무것도 뜨지 않음, 컨텐츠 자체만을 꾸며주는 것!|
 
 - Inline-block : 컨텐츠가 없어도 나타남!
   - 한줄에 여러개를 넣을 수 있으나 상자로 넣어져서 컨텐츠의 사이즈 상관없이 지정된 width, height 등 맞추어 표기가 됨
