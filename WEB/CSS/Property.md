@@ -17,15 +17,18 @@
 ### **border**
 
 - border-style, border-color 등 폰트 스타일과 동일하게 존재
+
   `border : 20px dashed red; 와 같이 한번에 지정 가능`
 
 ### **padding & margin**
 
 - padding : 내부 contents끼리의 공간, 숫자로 조정 (%, px 등의 단위)
+
   ```
   padding-top : 20px; 와 같이 하나의 방향을 지정 가능하며,
   padding : (top) (right) (down) (left); 와 같이 여러 숫자를 입력하여 네 방향을 동시에 지정 가능하다
   ```
+
 - margin : contents 가장자리와 바깥 공간, padding과 동일한 방식으로 지정 가능
 
 ### **색 표현 방법**
