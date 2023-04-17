@@ -1,17 +1,18 @@
 # :sparkles:TODAY I LEARNED:sparkles:
 
-### 📍 [GIT](GIT)
+### [Git](https://github.com/Chaewon-Leee/TIL/tree/main/GIT)
 
-### 📍 [HTML](HTML)
+### [WEB](https://github.com/Chaewon-Leee/TIL/tree/main/WEB)
 
-### 📍 [CSS](CSS)
+- CSS, HTML, Javascript, JQuery, Node, Vue
+- 2022 SME SW Bootcamp
 
-### 📍 [JAVASCRIPT](Javascript)
+### [DB](https://github.com/Chaewon-Leee/TIL/tree/main/DB)
 
-### 📍 [DB MODELING](DB_modeling)
+- DB, DB Modeling
 
-### 📍 [2022 SME SW BOOTCAMP](2022-SME-SWBootCamp)
+### [Crawling](https://github.com/Chaewon-Leee/TIL/tree/main/CRAWLING)
 
-- [NAVER](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/Naver)
-- [TO DO LIST](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/Todolist)
-- [DB MODELING](https://github.com/cw001121/TIL/tree/main/2022-SME-SWBootCamp/DB_modeling)
+### [ML](https://github.com/Chaewon-Leee/TIL/tree/main/CRAWLING)
+
+### [DL](https://github.com/Chaewon-Leee/TIL/tree/main/CRAWLING)
