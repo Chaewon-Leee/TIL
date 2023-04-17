@@ -2,7 +2,10 @@
 
 - ### [Overview](https://github.com/Chaewon-Leee/TIL/blob/main/WEB/node/overview.md)
 
-  - CSS, 이벤트
+  - node.js 사용 이유, node 작동 방법
+  - 동기와 비동기
+  - PM2
+  - request & resoponse
 
 - ### [node lecture](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/node/node_lecture)
 
