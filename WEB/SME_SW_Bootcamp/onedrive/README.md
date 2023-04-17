@@ -1,3 +1,15 @@
+# :star2: onedrive :star2:
+
+- 결과 확인 방법
+
+  - HTML을 브라우저에서 실행하여 확인
+  - VScode : onedrive.html 파일 - 실행(디버깅 없이 실행) - 웹앱(Chrome) 선택
+
+- ### result
+
+  ![OneDrive Clone Coding](./result.png)
+
+- ### 회고
 - flex:none; 사용해보고 싶은데 정확히 의미를 모르겠어서 사용을 못하겠음.
   flex-grow : flex container의 크기가 커져도 flex item의 크기가 커지지 않고 원래 크기로 유지
   flex-shrink : flex-shrink 속성은 flex item의 축소
