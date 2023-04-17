@@ -6,4 +6,4 @@
   - VScode : Naver.html 파일 - 실행(디버깅 없이 실행) - 웹앱(Chrome) 선택
 
 - ### result
-  ![Naver HTML 문서](./Naver/image/result_screen.png)
+  ![Naver HTML 문서](./image/result_screen.png)
