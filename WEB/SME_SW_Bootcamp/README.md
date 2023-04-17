@@ -1,7 +1,7 @@
 # :star2: 2022 SME SW Bootcamp :star2:
 
 - Assignments
-  | week | Assignments |result|
+  | week | Assignments |
   | :-----------------------------------------------: | :--------------------------: |
   | 1 | [Naver HTML 문서](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Naver) |
   | 2 | [To Do List](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Todolist) |
