@@ -1,4 +1,4 @@
-# :star2: JQUERY :star2:
+# :star2: NODE :star2:
 
 - ### [Overview](https://github.com/Chaewon-Leee/TIL/blob/main/WEB/node/overview.md)
 
