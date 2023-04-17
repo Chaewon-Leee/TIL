@@ -3,7 +3,7 @@
 - Assignments
   | week | Assignments |result|
   | :-----------------------------------------------: | :--------------------------: |
-  | 1 | [Naver HTML 문서](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Naver) |![Naver HTML 문서](/naver/image/result_screen.png)|
+  | 1 | [Naver HTML 문서](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Naver) |![Naver HTML 문서](./naver/image/result_screen.png)|
   | 2 | [To Do List](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Todolist) |
   | 3 | [OneDrive Clone Coding](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/onedrive) |
 
