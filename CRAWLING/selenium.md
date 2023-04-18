@@ -21,7 +21,7 @@ from selenium import webdriver
 - 왜 beatidulsoup을 사용하지 않는가?
   - 실제 검사창에서 본 클래스 네임과 실제로 가져와서 확인했을 때 이름이 다름!!
   - 하나하나 확인해서 클래스를 확인하게 될 경우, 만들 수는 있음! -> 하려면 hdr = {'User-Agent' : 'Mozilla/5.0'}해서 Request함수 속성 headers에 넣어줘야 함
-- 근데 이런걸 하나하나 확인하기 좀 힘드므로, 실제 웹 브라우저를 사용하는 selenium을 사용하는 것!
+- 근데 하나하나 확인하기 좀 힘드므로, 실제 웹 브라우저를 사용하는 selenium을 사용하는 것!
 
 ### **selenium 메소드**
 
