@@ -15,6 +15,6 @@
 
 - pyautogui, BeautifulSoup, selenium
 
-### [ML](https://github.com/Chaewon-Leee/TIL/tree/main/CRAWLING)
+### [ML](https://github.com/Chaewon-Leee/TIL/tree/main/ML)
 
-### [DL](https://github.com/Chaewon-Leee/TIL/tree/main/CRAWLING)
+### [DL](https://github.com/Chaewon-Leee/TIL/tree/main/DL)
