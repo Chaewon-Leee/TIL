@@ -5,16 +5,28 @@
 ### [WEB](https://github.com/Chaewon-Leee/TIL/tree/main/WEB)
 
 - CSS, HTML, Javascript, JQuery, Node, Vue
-- 2022 SME SW Bootcamp
+- 2022 SME SW Bootcamp projects
+  - [Naver HTML 문서](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Naver)
+  - [To Do List](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Todolist)
+  - [OneDrive Clone Coding](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/onedrive)
+- [2022 SME SW Bootcamp Final Project](https://github.com/Chaewon-Leee/PROJECT_DDAOM)
 
 ### [DB](https://github.com/Chaewon-Leee/TIL/tree/main/DB)
 
 - DB, DB Modeling
+- [2022 SME SW Bootcamp DB Modeling](https://github.com/Chaewon-Leee/TIL/tree/main/DB/DB_modeling)
 
 ### [Crawling](https://github.com/Chaewon-Leee/TIL/tree/main/CRAWLING)
 
 - pyautogui, BeautifulSoup, selenium
 
 ### [ML](https://github.com/Chaewon-Leee/TIL/tree/main/ML)
+
+- numpy, pandas, visualization, time series, feature engineering, linearRegression, LogisticRegression, NB, Tree
+- numpy assignment
+- pandas assignment
+- visualization project
+- feature engineering project
+- Kaggle project
 
 ### [DL](https://github.com/Chaewon-Leee/TIL/tree/main/DL)
