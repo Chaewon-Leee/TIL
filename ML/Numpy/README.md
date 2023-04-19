@@ -11,7 +11,6 @@
 - comparisons (All & Any, where, argmax & argmin)
 - boolean & fancy index
 - numpy data i/o (loadtxt & savetxt, numpy object - npy)
-
-### [assignment](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Numpy/numpy_lab.ipynb)
+- [assignment](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Numpy/numpy_lab.ipynb)
 
 - [reference](https://www.youtube.com/watch?v=NIWYNg8Gh70&list=PLBHVuYlKEkUKnfbWvRCrwSuSeYh_QUlRl&index=15)
