@@ -9,7 +9,7 @@
   - [Naver HTML 문서](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Naver)
   - [To Do List](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Todolist)
   - [OneDrive Clone Coding](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/onedrive)
-- [2022 SME SW Bootcamp Final Project](https://github.com/Chaewon-Leee/PROJECT_DDAOM)
+- [2022 SME SW Bootcamp Final Project](https://github.com/Chaewon-Leee/PROJECT-DDAOM)
 
 ### [DB](https://github.com/Chaewon-Leee/TIL/tree/main/DB)
 
@@ -22,7 +22,7 @@
 
 ### [ML](https://github.com/Chaewon-Leee/TIL/tree/main/ML)
 
-- numpy, pandas, visualization, time series, feature engineering, linearRegression, LogisticRegression, NB, Tree
+- numpy, pandas, visualization, time series, feature engineering (Data Preprocessing), linearRegression, LogisticRegression, NB, Tree
 - numpy assignment
 - pandas assignment
 - visualization project
