@@ -7,7 +7,7 @@
 - Seaborn Basics (Basic plot - lineplot, scatterplot, countplot, barplot, distplot, pivot, heatmap, kdeplot)
 - Seaborn graphs (Viloinplot, Stripplot. Swarmplot, Pointplot, Regplot)
 
-- [Visualization Project]()
+- [Visualization Project](https://github.com/Chaewon-Leee/PROJECT-Seoul_bike_visualization)
 
 reference
 
@@ -15,5 +15,3 @@ reference
 - [1_basic_plot](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Visualization/1_basic_plot.ipynb)
 - [2_data_plot](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Visualization/2_data_plot.ipynb)
 - [1_1_basic_plot](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Visualization/3_seaborn.ipynb)
-
-[reference](https://www.youtube.com/watch?v=NIWYNg8Gh70&list=PLBHVuYlKEkUKnfbWvRCrwSuSeYh_QUlRl&index=15)
