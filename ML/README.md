@@ -4,7 +4,7 @@
 | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------- |
 |           [Numpy](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Numpy)            | [Numpy assignment](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Numpy/numpy_lab.ipynb) |
 |          [Pandas](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Pandas)           | [Pandas assignment](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Pandas/pandas_lab)    |
-|   [Visualization](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Visualization)    | Visualization Project                                                                      |
+|   [Visualization](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Visualization)    | [Visualization Project](https://github.com/Chaewon-Leee/PROJECT-Seoul_bike_visualization)  |
 |     [Time Series](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Time_Series)      |                                                                                            |
 | [Data Preprocessing](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Visualization) | Feature Engineering Project                                                                |
 |  [LinearRegression](https://github.com/Chaewon-Leee/TIL/tree/main/ML/Visualization)  |                                                                                            |
