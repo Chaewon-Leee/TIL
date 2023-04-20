@@ -15,3 +15,5 @@ reference
 - [1_basic_plot](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Visualization/1_basic_plot.ipynb)
 - [2_data_plot](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Visualization/2_data_plot.ipynb)
 - [1_1_basic_plot](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Visualization/3_seaborn.ipynb)
+
+[reference](https://www.youtube.com/watch?v=NIWYNg8Gh70&list=PLBHVuYlKEkUKnfbWvRCrwSuSeYh_QUlRl&index=15)
