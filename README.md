@@ -23,9 +23,9 @@
 ### [ML](https://github.com/Chaewon-Leee/TIL/tree/main/ML)
 
 - numpy, pandas, visualization, time series, feature engineering (Data Preprocessing), linearRegression, LogisticRegression, NB, Tree
-- numpy assignment
-- pandas assignment
-- visualization project
+- [Numpy assignment](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Numpy/numpy_lab.ipynb)
+- [Pandas assignment](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Pandas/pandas_lab)
+- [Visualization Project](https://github.com/Chaewon-Leee/PROJECT-Seoul_bike_visualization)
 - feature engineering project
 - Kaggle project
 
