@@ -1,6 +1,6 @@
 # :sparkles: PreProcessing :sparkles:
 
-### [PreProcessing](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Time_Series/time_series.ipynb)
+### [PreProcessing](https://github.com/Chaewon-Leee/TIL/blob/main/ML/Data_Preprocessing/pre_processing.ipynb)
 
 - 데이터 모판, 데이터 노트
 - 데이터 현황 파악 (dtypes, info, isnull().sum(), describe, head)
