@@ -49,10 +49,10 @@
 
 ### [Pytorch](https://github.com/Chaewon-Leee/TIL/tree/main/Pytorch)
 
-|                            Subject                            | Related work |
-| :-----------------------------------------------------------: | :----------: |
-| [Ch.1](https://github.com/Chaewon-Leee/TIL/tree/main/DL/Ch.1) |              |
-| [Ch.2](https://github.com/Chaewon-Leee/TIL/tree/main/DL/Ch.2) |              |
-|                             Ch.3                              |              |
-| [Ch.4](https://github.com/Chaewon-Leee/TIL/tree/main/DL/Ch.4) |              |
-| [Ch.5](https://github.com/Chaewon-Leee/TIL/tree/main/DL/Ch.5) |              |
+|                              Subject                               | Related work |
+| :----------------------------------------------------------------: | :----------: |
+| [Ch.1](https://github.com/Chaewon-Leee/TIL/tree/main/Pytorch/Ch.1) |              |
+| [Ch.2](https://github.com/Chaewon-Leee/TIL/tree/main/Pytorch/Ch.2) |              |
+| [Ch.3](https://github.com/Chaewon-Leee/TIL/tree/main/Pytorch/Ch.3) |              |
+| [Ch.4](https://github.com/Chaewon-Leee/TIL/tree/main/Pytorch/Ch.4) |              |
+| [Ch.5](https://github.com/Chaewon-Leee/TIL/tree/main/Pytorch/Ch.5) |              |
