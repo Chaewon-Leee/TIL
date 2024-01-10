@@ -33,6 +33,7 @@ def Train(model, train_DL, criterion, optimizer, LR, EPOCH):
         # print loss
         loss_e = rloss/NoT # epoch loss
         # 각 batch 개수별로 loss를 곱해줬으므로, 최종 loss 평균은 총 데이터 개수로 나누어줌
+        # batch size가 딱 맞아떨어지면, * x_batch.shape[0] 필요없고, 마지막 loss_e = rloss/NoT도 몫(전체 데이터 개수/ 배치사이즈)으로 나누어주면 된다
         loss_history += [loss_e]
         print(f"Epoch: {ep+1} train loss: {round(loss_e,3)}")
         print("-"*20)
