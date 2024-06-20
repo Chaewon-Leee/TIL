@@ -4,7 +4,7 @@
 
 ### [WEB](https://github.com/Chaewon-Leee/TIL/tree/main/WEB)
 
-- CSS, HTML, Javascript, JQuery, Node, Vue
+- CSS, HTML, Javascript, JQuery, Node, Vue, Django
 - 2022 SME SW Bootcamp projects
   - [Naver HTML 문서](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Naver)
   - [To Do List](https://github.com/Chaewon-Leee/TIL/tree/main/WEB/SME_SW_Bootcamp/Todolist)
